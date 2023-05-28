@@ -4,8 +4,8 @@
 
 .input-simple label {
     display:block;
-    font-weight: bold;
     margin-bottom: 24px;
+    font-weight: 500;
     font-size: 1.2em;
 }
 

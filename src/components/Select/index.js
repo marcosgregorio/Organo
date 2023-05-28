@@ -3,7 +3,11 @@ const Select = (props) => {
     return (
         <div className='select'>
             <label>{props.label}</label>
-            <select required={props.requerido}>
+            <select 
+                onChange={evento => props.aoAlterado(evento.target.value)} 
+                value={props.valor}
+                required={props.requerido}
+            >
                 {props.itens.map(item => {
                     return <option key={item}> { item } </option>
                 })}

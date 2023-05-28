@@ -1,0 +1,26 @@
+.footer {
+    background-color: #6278F7;
+    background-image: url('../../../public/assets/fundo.png');
+    background-repeat: no-repeat;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__rede {
+    margin-right: 15px  ;
+    max-width: 10%;
+}
+
+.footer__logo img {
+    max-width: 100%;
+}
+
+.desenvolvedor p {
+    font-weight: 500;
+    margin-top:10px;
+    font-size: 12px;
+    padding: 10px;
+    color: white;
+}
